@@ -1,0 +1,211 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port i0 -pg 1 -y 680 -defaultsOSRD
+preplace port i1 -pg 1 -y 700 -defaultsOSRD
+preplace port i2 -pg 1 -y 760 -defaultsOSRD
+preplace port PB1 -pg 1 -y -1110 -defaultsOSRD
+preplace port i3 -pg 1 -y 780 -defaultsOSRD
+preplace port PB2 -pg 1 -y -1080 -defaultsOSRD
+preplace port i4 -pg 1 -y 800 -defaultsOSRD
+preplace port i10 -pg 1 -y 720 -defaultsOSRD
+preplace port PB3 -pg 1 -y -1050 -defaultsOSRD
+preplace port i5 -pg 1 -y 820 -defaultsOSRD
+preplace port i11 -pg 1 -y 740 -defaultsOSRD
+preplace port PB4 -pg 1 -y -1010 -defaultsOSRD
+preplace port i6 -pg 1 -y 840 -defaultsOSRD
+preplace port i7 -pg 1 -y 860 -defaultsOSRD
+preplace port dp -pg 1 -y 0 -defaultsOSRD
+preplace port i8 -pg 1 -y 880 -defaultsOSRD
+preplace port k0 -pg 1 -lvl 11:90 -defaultsOSRD -bot
+preplace port i9 -pg 1 -y 900 -defaultsOSRD
+preplace port k1 -pg 1 -lvl 12:0 -defaultsOSRD -bot
+preplace port clk -pg 1 -y -550 -defaultsOSRD
+preplace port k2 -pg 1 -lvl 13:-30 -defaultsOSRD -bot
+preplace port reset -pg 1 -y -210 -defaultsOSRD
+preplace port sled -pg 1 -lvl 22:-20 -defaultsOSRD -bot
+preplace portBus an -pg 1 -y -20 -defaultsOSRD
+preplace portBus seg -pg 1 -y 20 -defaultsOSRD
+preplace inst xup_and2_1 -pg 1 -lvl 6 -y -1390 -defaultsOSRD
+preplace inst xup_or2_0 -pg 1 -lvl 18 -y -360 -defaultsOSRD -resize 83 93
+preplace inst xup_and4_3 -pg 1 -lvl 27 -y -1000 -defaultsOSRD
+preplace inst xup_2_to_1_mux_1 -pg 1 -lvl 20 -y -190 -defaultsOSRD
+preplace inst xup_and4_12 -pg 1 -lvl 27 -y -1760 -defaultsOSRD
+preplace inst xup_or2_1 -pg 1 -lvl 26 -y -1000 -defaultsOSRD
+preplace inst xup_and4_4 -pg 1 -lvl 27 -y -830 -defaultsOSRD
+preplace inst xup_and2_2 -pg 1 -lvl 25 -y -320 -defaultsOSRD
+preplace inst xup_and2_3 -pg 1 -lvl 13 -y 360 -defaultsOSRD
+preplace inst xup_or2_2 -pg 1 -lvl 7 -y -1390 -defaultsOSRD
+preplace inst xup_and4_5 -pg 1 -lvl 17 -y -1580 -defaultsOSRD
+preplace inst xup_and2_4 -pg 1 -lvl 11 -y 930 -defaultsOSRD
+preplace inst xup_and4_6 -pg 1 -lvl 17 -y -1420 -defaultsOSRD
+preplace inst xup_or2_3 -pg 1 -lvl 12 -y 720 -defaultsOSRD -resize 168 93
+preplace inst xup_and2_5 -pg 1 -lvl 13 -y 920 -defaultsOSRD
+preplace inst xup_and4_7 -pg 1 -lvl 10 -y -1390 -defaultsOSRD
+preplace inst xup_and2_6 -pg 1 -lvl 12 -y 920 -defaultsOSRD
+preplace inst xup_and4_8 -pg 1 -lvl 10 -y -1070 -defaultsOSRD
+preplace inst xup_or6_0 -pg 1 -lvl 29 -y -1240 -defaultsOSRD
+preplace inst xup_and4_9 -pg 1 -lvl 10 -y -1230 -defaultsOSRD
+preplace inst xup_dff_0 -pg 1 -lvl 14 -y 520 -defaultsOSRD -resize 187 93
+preplace inst c_counter_binary_0 -pg 1 -lvl 28 -y -330 -defaultsOSRD
+preplace inst xup_or6_1 -pg 1 -lvl 19 -y -1460 -defaultsOSRD
+preplace inst xup_dff_en_reset_0 -pg 1 -lvl 32 -y -490 -defaultsOSRD
+preplace inst controller_wrapper_0 -pg 1 -lvl 3 -y 640 -defaultsOSRD
+preplace inst xup_dff_en_reset_1 -pg 1 -lvl 26 -y -600 -defaultsOSRD
+preplace inst xup_dff_en_reset_2 -pg 1 -lvl 5 -y -590 -defaultsOSRD
+preplace inst xup_or3_0 -pg 1 -lvl 4 -y 280 -defaultsOSRD
+preplace inst xup_or3_1 -pg 1 -lvl 11 -y 710 -defaultsOSRD -resize 174 98
+preplace inst seg7_wrapper_0 -pg 1 -lvl 3 -y 140 -defaultsOSRD
+preplace inst xup_or4_0 -pg 1 -lvl 4 -y -120 -defaultsOSRD
+preplace inst xup_or3_2 -pg 1 -lvl 10 -y 950 -defaultsOSRD
+preplace inst xup_or4_1 -pg 1 -lvl 29 -y -1030 -defaultsOSRD
+preplace inst storage_wrapper_0 -pg 1 -lvl 2 -y 770 -defaultsOSRD
+preplace inst seg7display_0 -pg 1 -lvl 27 -y 340 -defaultsOSRD
+preplace inst xup_dff_en_0 -pg 1 -lvl 23 -y -270 -defaultsOSRD -resize 176 136
+preplace inst xup_and5_0 -pg 1 -lvl 17 -y -1250 -defaultsOSRD
+preplace inst xup_and5_1 -pg 1 -lvl 10 -y -1740 -defaultsOSRD
+preplace inst xup_and5_2 -pg 1 -lvl 10 -y -1560 -defaultsOSRD
+preplace inst xup_and5_3 -pg 1 -lvl 17 -y -2060 -defaultsOSRD
+preplace inst xup_and3_0 -pg 1 -lvl 6 -y -360 -defaultsOSRD -resize 83 98
+preplace inst xup_and5_4 -pg 1 -lvl 17 -y -2250 -defaultsOSRD
+preplace inst xup_inv_0 -pg 1 -lvl 31 -y -650 -defaultsOSRD -resize 83 88
+preplace inst xup_and3_1 -pg 1 -lvl 11 -y -400 -defaultsOSRD -resize 83 98
+preplace inst xup_and5_5 -pg 1 -lvl 10 -y -2310 -defaultsOSRD
+preplace inst xup_inv_1 -pg 1 -lvl 30 -y -570 -defaultsOSRD -resize 83 88
+preplace inst xup_and3_2 -pg 1 -lvl 12 -y -390 -defaultsOSRD -resize 83 98
+preplace inst xup_and5_6 -pg 1 -lvl 10 -y -2560 -defaultsOSRD
+preplace inst xup_inv_2 -pg 1 -lvl 11 -y -610 -defaultsOSRD -resize 83 88
+preplace inst xup_and3_3 -pg 1 -lvl 9 -y -400 -defaultsOSRD -resize 83 98
+preplace inst xup_inv_3 -pg 1 -lvl 1 -y -1680 -defaultsOSRD -resize 88 88
+preplace inst xup_and3_4 -pg 1 -lvl 13 -y -390 -defaultsOSRD -resize 83 98
+preplace inst xup_inv_4 -pg 1 -lvl 4 -y -1580 -defaultsOSRD -resize 92 88
+preplace inst xup_and3_5 -pg 1 -lvl 16 -y -390 -defaultsOSRD -resize 83 98
+preplace inst xup_inv_5 -pg 1 -lvl 1 -y -1900 -defaultsOSRD -resize 83 88
+preplace inst xup_and3_6 -pg 1 -lvl 17 -y -390 -defaultsOSRD -resize 83 98
+preplace inst xup_inv_6 -pg 1 -lvl 1 -y -1790 -defaultsOSRD -resize 83 88
+preplace inst xup_and3_7 -pg 1 -lvl 10 -y -2150 -defaultsOSRD
+preplace inst xup_inv_7 -pg 1 -lvl 28 -y -180 -defaultsOSRD
+preplace inst xup_inv_8 -pg 1 -lvl 24 -y -270 -defaultsOSRD -resize 83 88
+preplace inst xup_and3_8 -pg 1 -lvl 8 -y -2270 -defaultsOSRD
+preplace inst xup_inv_9 -pg 1 -lvl 15 -y 520 -defaultsOSRD -resize 83 88
+preplace inst xup_clk_divider_0 -pg 1 -lvl 4 -y -410 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y -740 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 4 -y -290 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 26 -y 210 -defaultsOSRD
+preplace inst xup_or5_0 -pg 1 -lvl 11 -y -1130 -defaultsOSRD
+preplace inst xup_and4_0 -pg 1 -lvl 27 -y -1500 -defaultsOSRD
+preplace inst xup_or5_1 -pg 1 -lvl 11 -y -1320 -defaultsOSRD
+preplace inst xup_and4_1 -pg 1 -lvl 27 -y -1330 -defaultsOSRD
+preplace inst xup_and4_10 -pg 1 -lvl 17 -y -2490 -defaultsOSRD
+preplace inst xup_and2_0 -pg 1 -lvl 21 -y -950 -defaultsOSRD
+preplace inst xup_and4_2 -pg 1 -lvl 27 -y -1160 -defaultsOSRD
+preplace inst xup_2_to_1_mux_0 -pg 1 -lvl 9 -y -200 -defaultsOSRD
+preplace inst xup_and4_11 -pg 1 -lvl 27 -y -1920 -defaultsOSRD
+preplace netloc xup_inv_1_y 1 5 26 -90 -430 N -430 470 -430 1050 -330 1630 -320 2160 -280 N -280 N -280 N -280 N -280 3470 -280 3720 -740 N -740 N -740 N -740 N -740 N -740 N -740 N -740 N -740 N -740 6130 -710 N -710 N -710 N -710 7150
+preplace netloc xup_or5_1_y 1 10 2 2240 -1420 2480
+preplace netloc xup_and5_0_y 1 17 2 3970 -1410 NJ
+preplace netloc xup_2_to_1_mux_1_y 1 20 2 N -190 4900
+preplace netloc xup_and3_5_y 1 3 14 -670 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 1580J 710 2170J 780 2510J 790 NJ 790 NJ 790 N 790 N 790 3630
+preplace netloc i11_0_1 1 0 3 NJ 740 -1440J 520 -1120
+preplace netloc PB3_1 1 0 17 -1660 -1600 -1370 -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 N -1860 3670
+preplace netloc xup_and4_8_y 1 10 1 2170
+preplace netloc i1_0_1 1 0 3 NJ 700 -1470J 500 -1140
+preplace netloc xup_and4_6_y 1 17 2 3970 -1430 NJ
+preplace netloc xup_and5_1_y 1 10 1 2220
+preplace netloc PB4_1 1 0 21 -1650 -1510 N -1510 N -1510 N -1510 N -1510 -70 -1540 N -1540 N -1540 N -1540 1590 -1850 N -1850 N -1850 N -1850 N -1850 N -1850 N -1850 3650 -940 N -940 N -940 N -940 N
+preplace netloc xup_and3_7_y 1 10 19 2180 -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 N -1690 6110 -1660 N -1660 6720
+preplace netloc xup_inv_3_y 1 1 16 -1480 -2350 NJ -2350 NJ -2350 NJ -2350 NJ -2350 NJ -2350 NJ -2350 NJ -2350 1580J -2410 NJ -2410 NJ -2410 NJ -2410 NJ -2410 NJ -2410 NJ -2410 3720J
+preplace netloc i7_0_1 1 0 3 NJ 860 -1380J 580 -1060
+preplace netloc xup_and4_4_y 1 27 2 6450 -1040 NJ
+preplace netloc xup_or6_0_y 1 28 2 6770 -1350 7010
+preplace netloc xup_dff_0_q 1 10 5 2240 790 2490 800 2790 440 N 440 3310
+preplace netloc i9_0_1 1 0 3 NJ 900 -1470J 970 -1040
+preplace netloc xup_dff_en_0_q 1 23 1 N
+preplace netloc xup_and3_3_y 1 1 17 -1370 -60 N -60 -710 -10 N -10 N -10 N -10 N -10 N -10 1560J -290 N -290 N -290 N -290 N -290 N -290 N -290 N -290 3990
+preplace netloc xup_and4_3_y 1 27 2 6440 -1190 NJ
+preplace netloc PB2_1 1 0 27 NJ -1080 NJ -1080 NJ -1080 NJ -1080 NJ -1080 NJ -1080 NJ -1080 NJ -1080 NJ -1080 1560J -970 NJ -970 NJ -970 NJ -970 NJ -970 N -970 N -970 3710 -1150 3990 -1300 N -1300 N -1300 N -1300 N -1300 N -1300 N -1300 N -1300 N -1300 N
+preplace netloc xup_dff_en_reset_0_q 1 7 26 480 -740 1070 -740 1580 -740 2230 -740 N -740 N -740 N -740 N -740 N -740 3680 -510 N -510 N -510 N -510 N -510 N -510 N -510 N -510 N -510 N -510 6090 -580 N -580 N -580 7010 -640 7160 -580 N -580 7570
+preplace netloc xup_and5_4_y 1 17 2 NJ -2250 4160
+preplace netloc xup_and4_12_y 1 27 2 NJ -1760 6750
+preplace netloc xup_inv_9_y 1 13 3 3070 450 NJ 450 3460
+preplace netloc xup_and4_0_y 1 27 2 NJ -1500 6740
+preplace netloc xlconstant_1_dout 1 4 5 NJ -290 -90J -280 N -280 N -280 1040
+preplace netloc xup_and4_9_y 1 10 1 2160
+preplace netloc xup_and2_2_y 1 25 3 N -320 NJ -320 NJ
+preplace netloc xup_inv_2_y 1 5 22 -80J -290 NJ -290 NJ -290 1040J -320 1600J -410 2210J -330 2500J -980 2760 -1000 N -1000 N -1000 N -1000 3620 -1950 N -1950 N -1950 N -1950 N -1950 N -1950 N -1950 N -1950 N -1950 N -1950 6140
+preplace netloc xup_and2_0_y 1 21 5 4900 -990 NJ -990 NJ -990 NJ -990 NJ
+preplace netloc xup_and2_1_y 1 6 1 190
+preplace netloc c_counter_binary_0_THRESH0 1 6 23 190 -1200 N -1200 N -1200 1620 -980 N -980 2490 -960 N -960 N -960 N -960 N -960 3730 -1070 N -1070 N -1070 N -1070 N -1070 N -1070 N -1070 N -1070 N -1070 5800 -1070 6060 -590 6430J -400 6690
+preplace netloc xup_and3_8_y 1 8 21 1070J -2420 NJ -2420 2190J -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 NJ -1680 6100J -1670 NJ -1670 6730
+preplace netloc xup_or2_2_y 1 7 3 NJ -1390 N -1390 1620
+preplace netloc xup_and4_5_y 1 17 2 NJ -1580 4140
+preplace netloc xup_inv_7_y 1 9 20 1660 -2430 N -2430 N -2430 N -2430 N -2430 N -2430 N -2430 3730 -1960 3970J -2010 NJ -2010 NJ -2010 NJ -2010 NJ -2010 NJ -2010 NJ -2010 NJ -2010 NJ -2010 NJ -2010 NJ -2010 6700
+preplace netloc xup_and4_2_y 1 27 2 6430 -1210 NJ
+preplace netloc xup_clk_divider_0_clkout 1 4 28 -380 -460 NJ -460 NJ -460 N -460 1060 -470 N -470 N -470 N -470 2780 -460 N -460 N -460 N -460 N -460 N -460 N -460 N -460 N -460 N -460 5060 -460 N -460 N -460 5780 -460 N -460 6450 -470 N -470 N -470 N -470 7310
+preplace netloc xup_and5_2_y 1 10 1 2200
+preplace netloc xup_or3_0_y 1 2 3 -1030 340 -740J 360 -380
+preplace netloc xup_and3_4_y 1 3 11 -680 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 1630J 640 2200J 640 NJ 640 NJ 640 3050
+preplace netloc xup_and5_3_y 1 17 2 NJ -2060 4150
+preplace netloc seg7_wrapper_0_seg 1 3 30 -700 20 N 20 N 20 N 20 N 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ
+preplace netloc xup_inv_4_y 1 4 17 NJ -1580 -80J -1580 NJ -1580 NJ -1580 NJ -1580 1640J -1840 NJ -1840 NJ -1840 NJ -1840 NJ -1840 NJ -1840 NJ -1840 3640J -1060 NJ -1060 NJ -1060 N -1060 4650
+preplace netloc xup_or5_0_y 1 4 8 -380 -960 NJ -960 NJ -960 NJ -960 NJ -960 NJ -960 NJ -960 2480
+preplace netloc xup_or6_1_y 1 19 7 NJ -1460 NJ -1460 NJ -1460 N -1460 N -1460 N -1460 5780
+preplace netloc xup_and4_11_y 1 27 2 NJ -1920 6760
+preplace netloc i5_0_1 1 0 3 NJ 820 -1400J 560 -1080
+preplace netloc i0_0_1 1 0 3 NJ 680 -1480J 490 -1150
+preplace netloc seg7_wrapper_0_an 1 3 30 -720 -20 N -20 N -20 N -20 N -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ -20 NJ
+preplace netloc xup_or2_1_y 1 26 1 6110
+preplace netloc xup_and3_0_y 1 6 12 N -360 N -360 1030 -310 N -310 N -310 N -310 N -310 N -310 N -310 N -310 N -310 3980
+preplace netloc xup_and5_5_y 1 10 1 2210
+preplace netloc xup_and2_6_y 1 12 1 2760
+preplace netloc storage_wrapper_0_q0 1 2 1 N
+preplace netloc xup_or3_1_y 1 10 2 2240 800 2480
+preplace netloc xup_or4_0_y 1 2 3 -1030 -50 -720J -30 -380
+preplace netloc i10_0_1 1 0 3 NJ 720 -1450J 510 -1130
+preplace netloc xup_inv_6_y 1 1 26 -1470J -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 3690J -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 NJ -1880 N -1880 N -1880 N -1880 6150
+preplace netloc xup_and4_1_y 1 27 2 NJ -1330 6710
+preplace netloc storage_wrapper_0_q1 1 2 1 N
+preplace netloc i8_0_1 1 0 3 NJ 880 -1400J 960 -1070
+preplace netloc xup_and4_10_y 1 17 2 NJ -2490 4170
+preplace netloc storage_wrapper_0_q2 1 2 1 N
+preplace netloc PB1_1 1 0 27 -1670 -1610 -1380 -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 N -1870 6120
+preplace netloc xup_and2_5_y 1 13 1 3050
+preplace netloc xup_and2_3_y 1 13 1 3060
+preplace netloc i4_0_1 1 0 3 NJ 800 -1410J 550 -1090
+preplace netloc i2_0_1 1 0 3 NJ 760 -1430J 530 -1110
+preplace netloc xup_dff_en_reset_2_q 1 5 22 -90 -1900 N -1900 460 -1940 N -1940 1610 -940 2210 -680 N -680 2800 -320 N -320 N -320 3460 -320 3700 -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 N -1140 6150
+preplace netloc storage_wrapper_0_q3 1 2 1 N
+preplace netloc xup_or3_2_y 1 10 3 2190 860 2490 850 2770
+preplace netloc storage_wrapper_0_q4 1 2 1 N
+preplace netloc xup_or4_1_y 1 29 3 NJ -1030 NJ -1030 7310
+preplace netloc storage_wrapper_0_q5 1 2 1 N
+preplace netloc xup_and3_6_y 1 9 9 1660 430 N 430 N 430 2800 430 NJ 430 NJ 430 NJ 430 NJ 430 3970
+preplace netloc storage_wrapper_0_q6 1 2 1 N
+preplace netloc xup_inv_0_y 1 5 27 -70 -260 N -260 N -260 1070 -280 1570 -270 N -270 2520 -270 2790 -270 3070 -330 N -330 3450 -980 3660 -1670 N -1670 N -1670 N -1670 N -1670 N -1670 N -1670 N -1670 N -1670 N -1670 6070 -720 N -720 N -720 N -720 N -720 7300J
+preplace netloc storage_wrapper_0_q7 1 2 1 N
+preplace netloc xup_inv_8_y 1 24 1 5540
+preplace netloc xup_dff_en_reset_1_q 1 9 21 1650 -950 2180 -320 2510 -320 2770 -990 N -990 N -990 N -990 3630 -1770 N -1770 N -1770 N -1770 N -1770 N -1770 N -1770 N -1770 N -1770 N -1770 6080 -570 N -570 N -570 N
+preplace netloc xup_and5_6_y 1 10 1 2230
+preplace netloc storage_wrapper_0_q8 1 2 1 N
+preplace netloc xup_inv_5_y 1 1 26 -1370 -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ -1890 NJ
+preplace netloc xup_2_to_1_mux_0_y 1 9 11 NJ -200 NJ -200 NJ -200 N -200 N -200 N -200 N -200 N -200 N -200 N -200 4410
+preplace netloc storage_wrapper_0_q9 1 2 1 N
+preplace netloc xup_and2_4_y 1 11 1 2480
+preplace netloc storage_wrapper_0_q10 1 2 1 N
+preplace netloc xup_and3_2_y 1 3 22 -690 -230 N -230 -90 -270 N -270 N -270 1050 -300 N -300 N -300 N -300 2760 -300 N -300 N -300 N -300 N -300 4000 -290 N -290 N -290 N -290 N -290 5080 -360 N -360 5540
+preplace netloc seg7_wrapper_0_dp 1 3 30 -710 0 N 0 N 0 N 0 N 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ
+preplace netloc storage_wrapper_0_q11 1 2 1 N
+preplace netloc xlconstant_0_dout 1 1 31 NJ -740 N -740 N -740 -390 -680 N -680 N -680 N -680 N -680 N -680 2190 -490 N -490 N -490 N -490 N -490 N -490 N -490 N -490 N -490 4430 -470 N -470 N -470 5070 -470 N -470 N -470 5790 -480 N -480 N -480 N -480 N -480 N -480 N
+preplace netloc xup_or2_0_y 1 18 2 NJ -360 4420
+preplace netloc controller_wrapper_0_y_0 1 3 1 -730
+preplace netloc i3_0_1 1 0 3 NJ 780 -1420J 540 -1100
+preplace netloc xup_and4_7_y 1 10 1 2160
+preplace netloc i6_0_1 1 0 3 NJ 840 -1390J 570 -1050
+preplace netloc reset_1 1 0 32 NJ -210 NJ -210 -1150 -420 -740 -480 -370 -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 N -500 5800 -490 N -490 N -490 N -490 N -490 N -490 7300
+preplace netloc xup_or2_3_y 1 11 2 2510 810 2770
+preplace netloc clk_1 1 0 4 NJ -550 -1460J -200 -1040 -410 N
+levelinfo -pg 1 -1690 -1560 -1250 -840 -530 -220 70 340 910 1450 2040 2360 2640 2930 3190 3380 3550 3850 4070 4290 4540 4780 5040 5290 5470 5660 5930 6290 6570 6890 7080 7230 7440 7590 -top -2950 -bot 1170
+",
+}
+0

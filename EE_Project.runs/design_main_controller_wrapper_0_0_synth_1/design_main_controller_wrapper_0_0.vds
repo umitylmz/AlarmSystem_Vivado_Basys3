@@ -1,0 +1,358 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Dec 24 23:44:11 2018
+# Process ID: 8752
+# Current directory: C:/Users/Kerem Gurler/EE_Project/EE_Project.runs/design_main_controller_wrapper_0_0_synth_1
+# Command line: vivado.exe -log design_main_controller_wrapper_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_main_controller_wrapper_0_0.tcl
+# Log file: C:/Users/Kerem Gurler/EE_Project/EE_Project.runs/design_main_controller_wrapper_0_0_synth_1/design_main_controller_wrapper_0_0.vds
+# Journal file: C:/Users/Kerem Gurler/EE_Project/EE_Project.runs/design_main_controller_wrapper_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_main_controller_wrapper_0_0.tcl -notrace
+Command: synth_design -top design_main_controller_wrapper_0_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2408 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 391.629 ; gain = 98.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_main_controller_wrapper_0_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/synth/design_main_controller_wrapper_0_0.vhd:87]
+INFO: [Synth 8-3491] module 'controller_wrapper' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller_wrapper.vhd:14' bound to instance 'U0' of component 'controller_wrapper' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/synth/design_main_controller_wrapper_0_0.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'controller_wrapper' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller_wrapper.vhd:45]
+INFO: [Synth 8-3491] module 'controller' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:14' bound to instance 'controller_i' of component 'controller' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller_wrapper.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'controller' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:49]
+INFO: [Synth 8-3491] module 'controller_xup_and3_0_0' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and3_0_0/synth/controller_xup_and3_0_0.v:57' bound to instance 'xup_and3_0' of component 'controller_xup_and3_0_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:231]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_and3_0_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and3_0_0/synth/controller_xup_and3_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_and3' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/ipshared/2167/src/xup_and3.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_and3' (1#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/ipshared/2167/src/xup_and3.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_and3_0_0' (2#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and3_0_0/synth/controller_xup_and3_0_0.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_and6_0_0' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and6_0_0/synth/controller_xup_and6_0_0.v:57' bound to instance 'xup_and6_0' of component 'controller_xup_and6_0_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:238]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_and6_0_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and6_0_0/synth/controller_xup_and6_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_and6' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/ipshared/129b/src/xup_and6.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_and6' (3#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/ipshared/129b/src/xup_and6.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_and6_0_0' (4#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and6_0_0/synth/controller_xup_and6_0_0.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_and6_0_1' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and6_0_1/synth/controller_xup_and6_0_1.v:57' bound to instance 'xup_and6_1' of component 'controller_xup_and6_0_1' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:248]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_and6_0_1' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and6_0_1/synth/controller_xup_and6_0_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_and6_0_1' (5#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_and6_0_1/synth/controller_xup_and6_0_1.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_0_0' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_0/synth/controller_xup_xnor2_0_0.v:57' bound to instance 'xup_xnor2_0' of component 'controller_xup_xnor2_0_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:258]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_0_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_0/synth/controller_xup_xnor2_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xup_xnor2' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/ipshared/b6c3/src/xup_xnor2.v:5]
+	Parameter DELAY bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xup_xnor2' (6#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/ipshared/b6c3/src/xup_xnor2.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_0_0' (7#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_0/synth/controller_xup_xnor2_0_0.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_0_1' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_1/synth/controller_xup_xnor2_0_1.v:57' bound to instance 'xup_xnor2_1' of component 'controller_xup_xnor2_0_1' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:264]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_0_1' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_1/synth/controller_xup_xnor2_0_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_0_1' (8#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_1/synth/controller_xup_xnor2_0_1.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_6' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_6/synth/controller_xup_xnor2_3_6.v:57' bound to instance 'xup_xnor2_10' of component 'controller_xup_xnor2_3_6' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:270]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_6' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_6/synth/controller_xup_xnor2_3_6.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_6' (9#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_6/synth/controller_xup_xnor2_3_6.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_7' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_7/synth/controller_xup_xnor2_3_7.v:57' bound to instance 'xup_xnor2_11' of component 'controller_xup_xnor2_3_7' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:276]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_7' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_7/synth/controller_xup_xnor2_3_7.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_7' (10#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_7/synth/controller_xup_xnor2_3_7.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_0_2' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_2/synth/controller_xup_xnor2_0_2.v:57' bound to instance 'xup_xnor2_2' of component 'controller_xup_xnor2_0_2' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:282]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_0_2' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_2/synth/controller_xup_xnor2_0_2.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_0_2' (11#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_2/synth/controller_xup_xnor2_0_2.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_0_3' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_3/synth/controller_xup_xnor2_0_3.v:57' bound to instance 'xup_xnor2_3' of component 'controller_xup_xnor2_0_3' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:288]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_0_3' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_3/synth/controller_xup_xnor2_0_3.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_0_3' (12#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_0_3/synth/controller_xup_xnor2_0_3.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_0' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_0/synth/controller_xup_xnor2_3_0.v:57' bound to instance 'xup_xnor2_4' of component 'controller_xup_xnor2_3_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:294]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_0' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_0/synth/controller_xup_xnor2_3_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_0' (13#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_0/synth/controller_xup_xnor2_3_0.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_1' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_1/synth/controller_xup_xnor2_3_1.v:57' bound to instance 'xup_xnor2_5' of component 'controller_xup_xnor2_3_1' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:300]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_1' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_1/synth/controller_xup_xnor2_3_1.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_1' (14#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_1/synth/controller_xup_xnor2_3_1.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_2' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_2/synth/controller_xup_xnor2_3_2.v:57' bound to instance 'xup_xnor2_6' of component 'controller_xup_xnor2_3_2' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:306]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_2' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_2/synth/controller_xup_xnor2_3_2.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_2' (15#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_2/synth/controller_xup_xnor2_3_2.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_3' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_3/synth/controller_xup_xnor2_3_3.v:57' bound to instance 'xup_xnor2_7' of component 'controller_xup_xnor2_3_3' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:312]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_3' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_3/synth/controller_xup_xnor2_3_3.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_3' (16#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_3/synth/controller_xup_xnor2_3_3.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_4' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_4/synth/controller_xup_xnor2_3_4.v:57' bound to instance 'xup_xnor2_8' of component 'controller_xup_xnor2_3_4' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:318]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_4' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_4/synth/controller_xup_xnor2_3_4.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_4' (17#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_4/synth/controller_xup_xnor2_3_4.v:57]
+INFO: [Synth 8-3491] module 'controller_xup_xnor2_3_5' declared at 'c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_5/synth/controller_xup_xnor2_3_5.v:57' bound to instance 'xup_xnor2_9' of component 'controller_xup_xnor2_3_5' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:324]
+INFO: [Synth 8-6157] synthesizing module 'controller_xup_xnor2_3_5' [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_5/synth/controller_xup_xnor2_3_5.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'controller_xup_xnor2_3_5' (18#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_xup_xnor2_3_5/synth/controller_xup_xnor2_3_5.v:57]
+INFO: [Synth 8-256] done synthesizing module 'controller' (19#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'controller_wrapper' (20#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ipshared/1589/src/controller_wrapper.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'design_main_controller_wrapper_0_0' (21#1) [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/synth/design_main_controller_wrapper_0_0.vhd:87]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 446.766 ; gain = 153.559
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 446.766 ; gain = 153.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 446.766 ; gain = 153.559
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_ooc.xdc] for cell 'U0/controller_i'
+Finished Parsing XDC File [c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/src/controller_ooc.xdc] for cell 'U0/controller_i'
+Parsing XDC File [C:/Users/Kerem Gurler/EE_Project/EE_Project.runs/design_main_controller_wrapper_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Kerem Gurler/EE_Project/EE_Project.runs/design_main_controller_wrapper_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 757.211 ; gain = 0.195
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_xnor2_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_and6_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_and6_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/controller_i/xup_and3_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module xup_xnor2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    12|
+|2     |LUT3 |     1|
+|3     |LUT6 |     2|
++------+-----+------+
+
+Report Instance Areas: 
++------+-------------------+-------------------------+------+
+|      |Instance           |Module                   |Cells |
++------+-------------------+-------------------------+------+
+|1     |top                |                         |    15|
+|2     |  U0               |controller_wrapper       |    15|
+|3     |    controller_i   |controller               |    15|
+|4     |      xup_and3_0   |controller_xup_and3_0_0  |     1|
+|5     |        inst       |xup_and3                 |     1|
+|6     |      xup_and6_0   |controller_xup_and6_0_0  |     1|
+|7     |        inst       |xup_and6_0               |     1|
+|8     |      xup_and6_1   |controller_xup_and6_0_1  |     1|
+|9     |        inst       |xup_and6                 |     1|
+|10    |      xup_xnor2_0  |controller_xup_xnor2_0_0 |     1|
+|11    |      xup_xnor2_1  |controller_xup_xnor2_0_1 |     1|
+|12    |      xup_xnor2_10 |controller_xup_xnor2_3_6 |     1|
+|13    |      xup_xnor2_11 |controller_xup_xnor2_3_7 |     1|
+|14    |      xup_xnor2_2  |controller_xup_xnor2_0_2 |     1|
+|15    |      xup_xnor2_3  |controller_xup_xnor2_0_3 |     1|
+|16    |      xup_xnor2_4  |controller_xup_xnor2_3_0 |     1|
+|17    |      xup_xnor2_5  |controller_xup_xnor2_3_1 |     1|
+|18    |      xup_xnor2_6  |controller_xup_xnor2_3_2 |     1|
+|19    |      xup_xnor2_7  |controller_xup_xnor2_3_3 |     1|
+|20    |      xup_xnor2_8  |controller_xup_xnor2_3_4 |     1|
+|21    |      xup_xnor2_9  |controller_xup_xnor2_3_5 |     1|
++------+-------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 757.211 ; gain = 464.004
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 757.211 ; gain = 153.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 757.211 ; gain = 464.004
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 774.520 ; gain = 492.785
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Kerem Gurler/EE_Project/EE_Project.runs/design_main_controller_wrapper_0_0_synth_1/design_main_controller_wrapper_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/Kerem Gurler/EE_Project/EE_Project.srcs/sources_1/bd/design_main/ip/design_main_controller_wrapper_0_0/design_main_controller_wrapper_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 20 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Kerem Gurler/EE_Project/EE_Project.runs/design_main_controller_wrapper_0_0_synth_1/design_main_controller_wrapper_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_main_controller_wrapper_0_0_utilization_synth.rpt -pb design_main_controller_wrapper_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 778.813 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Dec 24 23:45:01 2018...

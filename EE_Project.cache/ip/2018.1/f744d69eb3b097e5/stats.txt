@@ -1,0 +1,3 @@
+NumberHits:2
+Timestamp: Mon Dec 24 20:44:01 UTC 2018
+VLNV: xilinx.com:ip:c_counter_binary:12.0
